@@ -8,7 +8,7 @@ using UnityEngine.AI;
 
 public class PlayerColorsControl : MonoBehaviour
 {
-    [Header("Couleurs à l'écran (Canvas)")]
+    [Header("Couleurs ï¿½ l'ï¿½cran (Canvas)")]
     public GameObject Curseur;
     public bool ResetAnimCurseur = true;
     public List<CountElement> ColorList;
@@ -22,14 +22,14 @@ public class PlayerColorsControl : MonoBehaviour
     public Text textColor;
     private Camera cameraFDP;
 
-    [Header("Mob1 & et effets assignés")]
+    /*[Header("Mob1 & et effets assignï¿½s")]
     public Rigidbody projectilePrefab;
     public Transform firePoint;
     public float launchForce;
 
     public GameObject Mob1;
     private Animator Mob1Anim;
-    private NavMeshAgent Mob1Nav;
+    private NavMeshAgent Mob1Nav;*/
 
 
     
@@ -38,7 +38,7 @@ public class PlayerColorsControl : MonoBehaviour
     public Quaternion ParticleSystemeAngle;
     private Transform HitVector3;
 
-    [Header("Menu, player et paramétrage")]
+    [Header("Menu, player et paramï¿½trage")]
     public GameObject Menu;
     public GameObject Player;
 
@@ -46,8 +46,8 @@ public class PlayerColorsControl : MonoBehaviour
     {
         cameraFDP = Camera.main;
         Color = 1f;
-        Mob1Anim = Mob1.GetComponent<Animator>();
-        Mob1Nav = Mob1.GetComponent<NavMeshAgent>();
+        //Mob1Anim = Mob1.GetComponent<Animator>();
+        //Mob1Nav = Mob1.GetComponent<NavMeshAgent>();
     }
 
     
@@ -65,38 +65,38 @@ public class PlayerColorsControl : MonoBehaviour
             //HitVector3.position = new Vector3(hit.point.x, hit.point.y, hit.point.z);
             if (hit.transform.gameObject != null && hit.transform.gameObject.CompareTag("Mob1"))
             {
-                        if (ResetAnimCurseur)
-                        {
-                            Curseur.GetComponent<Animator>().Play("CurseurTake");
-                            //Debug.Log("bite");
-                            ResetAnimCurseur = false;
-                        }
+                                if (ResetAnimCurseur)
+                                {
+                                    Curseur.GetComponent<Animator>().Play("CurseurTake");
+                                    //Debug.Log("bite");
+                                    ResetAnimCurseur = false;
+                                }
 
-                        if (Input.GetMouseButtonDown(0))
-                        {
-                            ResetAnimCurseur = true;
-                            Curseur.GetComponent<Animator>().Play("Idle");
-                            materialObjet = hit.transform.gameObject.GetComponent<MeshRenderer>().material;
-                            if (Color == 1f)
-                            {
-                                materialObjet.color = rose.color;
+                                if (Input.GetMouseButtonDown(0))
+                                {
+                                    ResetAnimCurseur = true;
+                                    Curseur.GetComponent<Animator>().Play("Idle");
+                                    materialObjet = hit.transform.gameObject.GetComponent<MeshRenderer>().material;
+                                    if (Color == 1f)
+                                    {
+                                        materialObjet.color = rose.color;
+                                    }
+                                    if (Color == 2f)
+                                        {
+                                        materialObjet.color = bleu.color;
+                                    }
+                                    if (Color == 3f)
+                                    {
+                                    materialObjet.color = blanc.color;
+                                    }
+                                }
                             }
-                            if (Color == 2f)
+                            else
                             {
-                                materialObjet.color = bleu.color;
+                                ResetAnimCurseur = true;
+                                Curseur.GetComponent<Animator>().Play("Idle");
                             }
-                            if (Color == 3f)
-                            {
-                                materialObjet.color = blanc.color;
-                            }
-                        }
-                    }
-                    else
-                    {
-                        ResetAnimCurseur = true;
-                        Curseur.GetComponent<Animator>().Play("Idle");
-                    }
-            if (hit.transform.gameObject.CompareTag("Mob2") && Input.GetMouseButtonDown(1))
+            /*if (hit.transform.gameObject.CompareTag("Mob2") && Input.GetMouseButtonDown(1))
             {
                 Mob1.GetComponent<StateMachineMob1>().Cible = hit.collider.gameObject;       
             }
@@ -110,7 +110,7 @@ public class PlayerColorsControl : MonoBehaviour
                 //Debug.Log(hit.point);
                 Instantiate(ParticleSystemeClic, hit.point, ParticleSystemeAngle);
                 //new GameObject PSC = Instantiate(ParticleSystemeClic, new Vector3(hit.transform.position.x, hit.transform.position.x, hit.transform.position.x));
-            }
+            }*/
         }
         
 
@@ -162,11 +162,12 @@ public class PlayerColorsControl : MonoBehaviour
 
         }
 
-        if (Input.GetKeyDown(KeyCode.E))
+        /*if (Input.GetKeyDown(KeyCode.E))
         {
             Rigidbody rb = Instantiate(projectilePrefab, firePoint.position, firePoint.rotation);
             rb.AddForce(firePoint.forward * launchForce, ForceMode.Impulse);
-        }
+        }*/
+
         if (Input.GetKeyDown(KeyCode.Tab))
         {
             if (Menu.activeSelf)

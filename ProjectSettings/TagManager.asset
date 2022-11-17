@@ -10,6 +10,7 @@ TagManager:
   - Mob1
   - Mob2
   - Mob3
+  - ElementBase
   layers:
   - Default
   - TransparentFX
