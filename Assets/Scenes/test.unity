@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18029143, g: 0.22572419, b: 0.30693057, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -123,6 +123,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 --- !u!1 &935062
 GameObject:
@@ -403,6 +404,8 @@ MeshFilter:
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of eb8fcb7 (blocking 1)
 --- !u!1 &16967639
 GameObject:
   m_ObjectHideFlags: 0
@@ -777,6 +780,7 @@ Transform:
   m_Father: {fileID: 1750017198}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &120534205
 GameObject:
   m_ObjectHideFlags: 0
@@ -817,6 +821,8 @@ Transform:
   m_Father: {fileID: 1765752062}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> parent of eb8fcb7 (blocking 1)
 --- !u!1 &120534205
 GameObject:
   m_ObjectHideFlags: 0
@@ -920,6 +926,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 120534205}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 --- !u!1 &127342073
 GameObject:
@@ -1056,6 +1063,8 @@ MeshFilter:
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of eb8fcb7 (blocking 1)
 --- !u!1 &149331966
 GameObject:
   m_ObjectHideFlags: 0
@@ -1124,6 +1133,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 --- !u!1 &156854690
 GameObject:
@@ -1307,6 +1317,8 @@ MeshFilter:
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of eb8fcb7 (blocking 1)
 --- !u!1 &177185649
 GameObject:
   m_ObjectHideFlags: 0
@@ -1708,6 +1720,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 --- !u!4 &276415290
 Transform:
@@ -1728,6 +1741,9 @@ Transform:
 =======
 --- !u!65 &481934805
 >>>>>>> Stashed changes
+=======
+--- !u!65 &481934805
+>>>>>>> parent of eb8fcb7 (blocking 1)
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1789,6 +1805,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 481934804}
+<<<<<<< HEAD
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 <<<<<<< Updated upstream
 --- !u!1 &334293561
@@ -2698,6 +2715,8 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1083233836}
+=======
+>>>>>>> parent of eb8fcb7 (blocking 1)
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 <<<<<<< Updated upstream
 --- !u!4 &481934808
@@ -3098,6 +3117,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &692958385
 GameObject:
   m_ObjectHideFlags: 0
@@ -3472,6 +3492,8 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 770833512}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+=======
+>>>>>>> parent of eb8fcb7 (blocking 1)
 --- !u!1 &803153234
 GameObject:
   m_ObjectHideFlags: 0
@@ -3641,6 +3663,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 821995783}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+<<<<<<< HEAD
 --- !u!1 &824000126
 GameObject:
   m_ObjectHideFlags: 0
@@ -3932,6 +3955,8 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 863061825}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+=======
+>>>>>>> parent of eb8fcb7 (blocking 1)
 --- !u!1 &929460128
 GameObject:
   m_ObjectHideFlags: 0
@@ -4029,6 +4054,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 929460128}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+<<<<<<< HEAD
 --- !u!1 &933468380
 GameObject:
   m_ObjectHideFlags: 0
@@ -4259,6 +4285,8 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1000229818}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+=======
+>>>>>>> parent of eb8fcb7 (blocking 1)
 --- !u!1 &1025724856
 GameObject:
   m_ObjectHideFlags: 0
@@ -4544,6 +4572,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1086932425}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+<<<<<<< HEAD
 --- !u!1 &1127993734
 GameObject:
   m_ObjectHideFlags: 0
@@ -4641,6 +4670,8 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1127993734}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+=======
+>>>>>>> parent of eb8fcb7 (blocking 1)
 --- !u!1 &1148281379
 GameObject:
   m_ObjectHideFlags: 0
@@ -4724,6 +4755,7 @@ Transform:
   m_Father: {fileID: 1750017198}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &1164806495
 GameObject:
   m_ObjectHideFlags: 0
@@ -5129,6 +5161,8 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1229297908}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+=======
+>>>>>>> parent of eb8fcb7 (blocking 1)
 --- !u!1 &1252156631
 GameObject:
   m_ObjectHideFlags: 0
@@ -5223,6 +5257,7 @@ Transform:
   m_Father: {fileID: 1765752062}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+<<<<<<< HEAD
 --- !u!1 &1258930265
 GameObject:
   m_ObjectHideFlags: 0
@@ -5417,6 +5452,8 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1269727477}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+=======
+>>>>>>> parent of eb8fcb7 (blocking 1)
 --- !u!1 &1281352359
 GameObject:
   m_ObjectHideFlags: 0
@@ -5448,6 +5485,7 @@ Transform:
   m_Father: {fileID: 1765752062}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &1302438384
 GameObject:
   m_ObjectHideFlags: 0
@@ -5642,6 +5680,8 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1319148144}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+=======
+>>>>>>> parent of eb8fcb7 (blocking 1)
 --- !u!1 &1395700892
 GameObject:
   m_ObjectHideFlags: 0
@@ -5739,6 +5779,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &1402277540
 GameObject:
   m_ObjectHideFlags: 0
@@ -5836,6 +5877,8 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1402277540}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+=======
+>>>>>>> parent of eb8fcb7 (blocking 1)
 --- !u!1 &1413655309
 GameObject:
   m_ObjectHideFlags: 0
@@ -5919,6 +5962,7 @@ Transform:
   m_Father: {fileID: 1750017198}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &1440568386
 GameObject:
   m_ObjectHideFlags: 0
@@ -6149,6 +6193,8 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1442474062}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+=======
+>>>>>>> parent of eb8fcb7 (blocking 1)
 --- !u!1 &1470211856
 GameObject:
   m_ObjectHideFlags: 0
@@ -6246,6 +6292,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1470211856}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+<<<<<<< HEAD
 --- !u!1 &1477473853
 GameObject:
   m_ObjectHideFlags: 0
@@ -6537,6 +6584,8 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1548150673}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+=======
+>>>>>>> parent of eb8fcb7 (blocking 1)
 --- !u!1 &1620224145
 GameObject:
   m_ObjectHideFlags: 0
@@ -6639,6 +6688,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1620224145}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+<<<<<<< HEAD
 --- !u!1 &1667232637
 GameObject:
   m_ObjectHideFlags: 0
@@ -7421,6 +7471,8 @@ MeshFilter:
 =======
   m_GameObject: {fileID: 1620224145}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+=======
+>>>>>>> parent of eb8fcb7 (blocking 1)
 --- !u!1 &1733226017
 >>>>>>> Stashed changes
 GameObject:
@@ -8004,6 +8056,7 @@ Transform:
   m_Father: {fileID: 1750017198}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 --- !u!1 &2009782371
 GameObject:
@@ -8173,6 +8226,8 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of eb8fcb7 (blocking 1)
 --- !u!1 &2058919680
 GameObject:
   m_ObjectHideFlags: 0
@@ -8367,6 +8422,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2067080105}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 --- !u!1 &2073397789
 GameObject:
@@ -8405,6 +8461,8 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of eb8fcb7 (blocking 1)
 --- !u!1 &2091401372
 GameObject:
   m_ObjectHideFlags: 0
@@ -8690,9 +8748,12 @@ MonoBehaviour:
   JumpOrientation: {fileID: 1395700892}
   CameraRotationAutoHaut: 0.4
   CameraRotationAutobas: 1
+<<<<<<< HEAD
   rotationReference: {fileID: 515216935}
   speedRotationHorizontale: 2
   upRotation: 0
+=======
+>>>>>>> parent of eb8fcb7 (blocking 1)
 --- !u!1 &2146598093
 GameObject:
   m_ObjectHideFlags: 0
