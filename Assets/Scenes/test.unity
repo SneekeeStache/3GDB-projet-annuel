@@ -3521,8 +3521,10 @@ MonoBehaviour:
   ParapluieTransform: {fileID: 3218663088141246433}
   cameraFDP: {fileID: 589855149}
   JumpOrientation: {fileID: 1395700892}
-  CameraRotationAutoHaut: 0.4
+  CameraRotationAutoHaut: 2
   CameraRotationAutobas: 1
+  rotationReference: {fileID: 0}
+  upRotation: 0
 --- !u!1 &2146598093
 GameObject:
   m_ObjectHideFlags: 0
